@@ -1,0 +1,95 @@
+body{
+background-color: white;
+}
+.nav-categories{
+    list-style: none;
+    margin:30px 0 0 50px;
+    padding:0;
+    width: 150px;
+    border-left: 1px solid lavender;
+    border-right: 1px solid lavender;
+    border-bottom: 1px solid lavender;
+    background-color:  lavenderblush;
+
+
+}
+.nav-list{
+
+    border-top: 1px solid lavender;
+    padding:10px;
+    text-align: center;
+    position:relative;
+    cursor: pointer;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:darkgray;
+}
+.dropdown{
+    position:absolute;
+    left: 150px;
+    top:-1px;
+    width: 150px;
+    list-style: none;
+    margin:0;
+    padding:0;
+    background-color:  lavenderblush;
+    border-left: 1px solid lavender;
+    border-right: 1px solid lavender;
+    border-bottom: 1px solid lavender;
+    display: none;
+}
+.drop-list{
+    border-top: 1px solid lavender;
+    padding:10px;
+    text-align: center;
+    position:relative;
+
+}
+.drop-link{
+    color: darkgray;
+}
+
+.dropdown2{
+    position: absolute;
+    left: 150px;
+    top:-1px;
+    width: 300px;
+    height: 300px;
+    background-color: lavenderblush;
+    border: 1px solid lavender;
+    padding: 40px;
+    box-sizing: border-box;
+    display: none;
+}
+p{
+    color: darkgray;
+    margin-bottom: 40px;
+}
+
+.active{
+    color:black;
+
+}
+.massage
+{
+    position: absolute;
+    top:30px;
+    right: 65px;
+    background-color: lavenderblush;
+    border: 1px solid lavender;
+    display: none;
+}
+.message-text{
+    color: darkgray;
+    padding: 10px 40px 0 40px;
+}
+.ok{
+    display: block;
+    margin: 0 auto;
+
+}
+.has-drop{
+    display: block;
+}
